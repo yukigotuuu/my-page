@@ -1,0 +1,234 @@
+
+body{
+	font-weight: bold;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	background-color: #F7C5EE;
+	padding: 5px 50px;
+	color: #BD44FC;
+	font-size: 18px;
+}
+
+.icon{
+	height: 60px;
+
+}
+
+.header-left{
+	display: flex;
+	align-items: center;
+
+}
+
+.header-right{
+	display: flex;
+	align-items: center;
+}
+
+.header-right li:first-child{
+	margin-right:20px;
+}
+
+.yg{
+	background-image: url(../img/sora.jpg);
+	background-size: cover;
+	height: 400px;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title{
+	font-size: 50px;
+	margin-bottom:30px;
+}
+
+
+
+.subtitle{
+	font-size: 20px;
+	margin-bottom: 80px;
+}
+
+.btn{
+	height: 30px;
+	width: 80px;
+	font-size: 15px;
+	color: navy;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+
+.twitter{
+	margin-right:50px;
+	background-color:rgba(123,221,249,.5);
+	border-color:rgba(123,221,249,.5);
+}
+
+.twitter:hover{
+	background-color:rgb(123,221,249)
+}
+
+.insta{
+	background-color:rgba(254,100,205,.5);
+	border-color:rgba(254,100,205,.5);
+}
+
+.insta:hover{
+	background-color:rgb(254,100,205);
+}
+
+.main{
+	background-color: #fff;
+	color: navy;
+}
+
+.main strong{
+	color: #E80842;
+}
+
+.main h2{
+	text-align: center;
+	padding: 50px 0;
+	font-size: 30px;
+}
+
+
+.img-box{
+	display: flex;
+	justify-content: center;
+}
+
+.img-box li{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 70px 50px 0;
+}
+
+.img-box li:last-child{
+	margin-right:0;
+}
+
+.img-box li img{
+	height: 400px;
+	width: 400px;
+	opacity: .7;
+
+}
+
+.img-box li img:hover{
+	opacity: 1;
+	transition: .3s;
+}
+
+.img-box li span{
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.fa{
+	background-color: pink;
+}
+
+.fo{
+	background-color: orange;
+}
+
+.co{
+	background-color: skyblue;
+}
+
+.mu{
+	background-color: yellow;
+}
+
+
+
+.message{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: #D1E7FE;
+	color: navy;
+}
+
+.message h2{
+	font-size: 30px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
+.form{
+	display: flex;
+	justify-content: center;
+}
+
+.form-left{
+	display: flex;
+	flex-direction: column;
+}
+
+.form .neme,
+.form .email{
+	height: 50px;
+	width: 300px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.form .neme{
+	margin-bottom: 20px;
+}
+
+.form .inquiry{
+	height: 120px;
+	width: 300px;
+	box-sizing: border-box;
+	margin-left: 30px;
+}
+
+.message button{
+
+	background-color: #fff;
+	color: #BD44FC;
+	border:3px solid #BD44FC;
+	font-size: 24px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	margin:30px 0 50px 0;
+	border-radius: 50%;
+}
+
+.message button:hover{
+	background-color: rgba(189,68,252,.5);
+	color: #fff;
+	transition: .2s;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #8186E1;
+	padding: 5px 50px;
+	color: #BD44FC;
+	font-size: 18px;
+}
+
+
+
+
+@media screen and (max-width: 1280px){
+
+	.img-box li img {
+    	height: 300px;
+    	width: 300px;
+    }
+}
